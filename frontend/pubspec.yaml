@@ -1,0 +1,19 @@
+name: echocircle
+description: A rhythm-aware voice journaling app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^4.1.0
+  permission_handler: ^11.0.0
+  path_provider: ^2.0.15
+  flutter_svg: ^2.0.7
+
+flutter:
+  assets:
+    - assets/audio/
+    - assets/icons/
