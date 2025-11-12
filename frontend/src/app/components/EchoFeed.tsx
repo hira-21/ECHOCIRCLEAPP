@@ -15,3 +15,12 @@ export default function EchoFeed() {
     </div>
   );
 }
+export default function EchoFeed() {
+  return (
+    <div>
+      <h2>EchoFeed Component</h2>
+      <p>This is a placeholder for your feed content.</p>
+    </div>
+  )
+}
+
